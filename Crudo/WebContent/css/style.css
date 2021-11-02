@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to top, #f3f3f3, #17d5fb) no-repeat;
+}
+.mycontainerleft {
+    margin: 10% auto;
+    padding: 30px;
+    height: 300px;
+    background: transparent;
+    box-shadow: 1rem 1rem 2rem rgba(17, 2, 2, 0.25);
+    text-align: center;
+}
+.mycontaineright {
+    margin: 10% auto;
+    padding: 30px;
+    height: auto;
+    background: transparent;
+    text-align: center;
+    box-shadow: 1rem 1rem 2rem rgba(17, 2, 2, 0.25);
+    transition: 0.5s;
+}
+.mycontaineright:hover {
+    margin: 10% auto;
+    padding: 30px;
+   	height: auto;
+    background: transparent;
+    text-align: center;
+    box-shadow: 1rem 1rem 2rem rgba(133, 128, 128, 0.25);
+    transition: 0.5s;
+}
+.animtextbox {
+    margin: 10% auto;
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 2px darkblue;
+}
+.maindiv {
+ margin: 1% auto;
+ width: 90%;
+ height: auto;
+ background: transparent;
+ text-align: center;
+ box-shadow: 1rem 1rem 2rem rgba(17, 2, 2, 0.25);
+ font-size: 20px;
+ text-shadow: 0px 0px 0px black, 0 0 10px rgb(242, 242, 243), 0 0 2px rgb(0, 0, 0);
+}
+.addtodobtn {
+    margin: 10px;
+}
+.errordiv {
+	margin: 3% auto;
+	box-shadow: 1rem 1rem 2rem rgba(133, 128, 128, 0.25);
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	font-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 2px red;
+	padding-top: 10%;
+	font-size: 30px;
+}
