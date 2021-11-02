@@ -30,13 +30,13 @@ This is an online Todo Management Web application including all crud operations,
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/vickypl/Crudo.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Crudo
 ```
 
 Install dependencies
