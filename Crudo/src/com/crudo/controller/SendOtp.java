@@ -35,7 +35,7 @@ public class SendOtp extends HttpServlet {
 			session.setAttribute("genratedOtp", otp);
 			session.setAttribute("setEmail", email);
 			
-			Email mail = new Email("academicaliv@gmail.com", "47881220");
+			Email mail = new Email("academicaliv@gmail.com", "4xxxxxxx0");
 			mail.setRecipient(email);
 			mail.setSubject("Your Crudo OTP");
 			mail.setMessage("Your Otp Is: "+otp);
